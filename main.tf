@@ -4,7 +4,8 @@ provider "aws" {
 }
 
 resource "aws_vpc" "dep1" {
-    cidr_block = "10.10.0.0/16"
-     tags = {
-        Name = "VPC1_NTS18-1"
-     }
+  cidr_block = "10.10.0.0/16"
+  tags = {
+    Name = "VPC1_NTS18-1"
+  }
+}
